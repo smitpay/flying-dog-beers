@@ -3,18 +3,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 
-import QuantLib as ql
-import pandas as pd
-import datetime
-from dateutil.relativedelta import *
-import matplotlib.pyplot as plt
-plt.style.use('seaborn-whitegrid')
-import numpy as np
-import random
-import time
-
-
-
 ########### Define your variables
 beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
 ibu_values=[35, 60, 85, 75]
